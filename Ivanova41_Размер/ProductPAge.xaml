@@ -51,7 +51,7 @@
                             <TextBlock Text=" рублей" Grid.Column="1" Grid.Row="3" HorizontalAlignment="Left" FontSize="20" TextWrapping="Wrap" ></TextBlock>
 
                         </StackPanel>
-                        <TextBlock Text="Скидка" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Row="0"  Grid.Column="3" FontSize="20" ></TextBlock>
+                        <TextBlock Text="Скидка" HorizontalAlignment="Right"  Grid.Row="0"  Grid.Column="3" FontSize="20" ></TextBlock>
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Grid.Column="3" Grid.Row="2" Grid.RowSpan="4">
                            
                             <TextBlock Text="{Binding ProductDiscountAmount}" HorizontalAlignment="Right" Grid.Row="2" FontSize="30" ></TextBlock>
